@@ -53,7 +53,7 @@
                 android:layout_toRightOf="@+id/plant"
                 android:layout_below="@+id/plant_name"
                 android:textSize="12sp"
-                android:text="5 seed"
+                android:text="@string/corona"
                 android:padding="12dp"
                 android:textColor="@android:color/darker_gray" />
 

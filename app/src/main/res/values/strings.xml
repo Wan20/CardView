@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">CardView</string>
     <string name="action_settings">Settings</string>
+    <string name="corona">Full or part sun, average water.
+    Blooms spring through fall.
+    10-14" tall, space 6-8" apart.</string>
 </resources>
