@@ -15,10 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        CardView cardView = (CardView)findViewById(R.id.cv_main);
-        cardView.setCardElevation(0.5f);
-
     }
 
     @Override
