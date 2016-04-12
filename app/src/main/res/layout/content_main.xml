@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,7 +11,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.wansu.cardview.MainActivity"
     tools:showIn="@layout/activity_main"
-    android:background="@drawable/mundo_da_jully">
+    android:background="@drawable/mundo_da_jully"
+    android:orientation="vertical">
 
     <android.support.v7.widget.CardView
         android:id="@+id/cv_main"
@@ -43,7 +44,7 @@
                 android:layout_alignParentTop="true"
                 android:textSize="16sp"
                 android:text="Corona Snapdragon"
-                android:padding="12dp"
+                android:padding="4dp"
                 android:textColor="@android:color/black" />
 
             <TextView
@@ -54,9 +55,197 @@
                 android:layout_below="@+id/plant_name"
                 android:textSize="12sp"
                 android:text="@string/corona"
-                android:padding="12dp"
+                android:padding="4dp"
                 android:textColor="@android:color/darker_gray" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
-</RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_main2"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        android:layout_height="150dp"
+        android:layout_width="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/plant2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ice_plant"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plant_name2"
+                android:layout_toRightOf="@+id/plant2"
+                android:layout_alignParentTop="true"
+                android:textSize="16sp"
+                android:text="Ice Plant"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/explain2"
+                android:layout_toRightOf="@+id/plant2"
+                android:layout_below="@+id/plant_name2"
+                android:textSize="12sp"
+                android:text="@string/ice"
+                android:padding="4dp"
+                android:textColor="@android:color/darker_gray" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_main3"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        android:layout_height="150dp"
+        android:layout_width="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/plant3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/zinnia_jazz"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plant_name3"
+                android:layout_toRightOf="@+id/plant3"
+                android:layout_alignParentTop="true"
+                android:textSize="16sp"
+                android:text="Zinnia Jazz Mix"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/explain3"
+                android:layout_toRightOf="@+id/plant3"
+                android:layout_below="@+id/plant_name3"
+                android:textSize="12sp"
+                android:text="@string/zinnia"
+                android:padding="4dp"
+                android:textColor="@android:color/darker_gray" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_main4"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        android:layout_height="150dp"
+        android:layout_width="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/plant4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/iris_bluffy"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plant_name4"
+                android:layout_toRightOf="@+id/plant4"
+                android:layout_alignParentTop="true"
+                android:textSize="16sp"
+                android:text="Iris Bluffy"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/explain4"
+                android:layout_toRightOf="@+id/plant4"
+                android:layout_below="@+id/plant_name4"
+                android:textSize="12sp"
+                android:text="@string/iris"
+                android:padding="4dp"
+                android:textColor="@android:color/darker_gray" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_main5"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        android:layout_height="150dp"
+        android:layout_width="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/plant5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ironweed_yellow"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plant_name5"
+                android:layout_toRightOf="@+id/plant5"
+                android:layout_alignParentTop="true"
+                android:textSize="16sp"
+                android:text="Ironweed Yellow"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/explain5"
+                android:layout_toRightOf="@+id/plant5"
+                android:layout_below="@+id/plant_name5"
+                android:textSize="12sp"
+                android:text="@string/ironweed"
+                android:padding="4dp"
+                android:textColor="@android:color/darker_gray" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
