@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,20 +17,11 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
-
+        android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <android.support.v7.widget.CardView
         android:id="@+id/cv_main"
         app:cardUseCompatPadding="true"
@@ -40,15 +32,16 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="2dp">
+            android:padding="2dp"
+            android:background="@android:color/holo_orange_light">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:id="@+id/plant"
-                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@drawable/corona_snapdragon"
                 android:scaleType="centerCrop"/>
 
@@ -56,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/plant_name"
-                android:layout_toRightOf="@+id/plant"
+                android:layout_toEndOf="@+id/plant"
                 android:layout_alignParentTop="true"
                 android:textSize="16sp"
                 android:text="Corona Snapdragon"
@@ -67,12 +60,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/explain"
-                android:layout_toRightOf="@+id/plant"
+                android:layout_toEndOf="@+id/plant"
                 android:layout_below="@+id/plant_name"
                 android:textSize="12sp"
                 android:text="@string/corona"
                 android:padding="4dp"
-                android:textColor="@android:color/darker_gray" />
+                android:textColor="@android:color/secondary_text_light" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
@@ -87,15 +80,16 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="2dp">
+            android:padding="2dp"
+            android:background="@android:color/holo_orange_light">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:id="@+id/plant2"
-                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@drawable/ice_plant"
                 android:scaleType="centerCrop"/>
 
@@ -103,7 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/plant_name2"
-                android:layout_toRightOf="@+id/plant2"
+                android:layout_toEndOf="@+id/plant2"
                 android:layout_alignParentTop="true"
                 android:textSize="16sp"
                 android:text="Ice Plant"
@@ -114,12 +108,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/explain2"
-                android:layout_toRightOf="@+id/plant2"
+                android:layout_toEndOf="@+id/plant2"
                 android:layout_below="@+id/plant_name2"
                 android:textSize="12sp"
                 android:text="@string/ice"
                 android:padding="4dp"
-                android:textColor="@android:color/darker_gray" />
+                android:textColor="@android:color/secondary_text_light" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
@@ -134,15 +128,16 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="2dp">
+            android:padding="2dp"
+            android:background="@android:color/holo_orange_light">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:id="@+id/plant3"
-                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@drawable/zinnia_jazz"
                 android:scaleType="centerCrop"/>
 
@@ -150,7 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/plant_name3"
-                android:layout_toRightOf="@+id/plant3"
+                android:layout_toEndOf="@+id/plant3"
                 android:layout_alignParentTop="true"
                 android:textSize="16sp"
                 android:text="Zinnia Jazz Mix"
@@ -161,12 +156,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/explain3"
-                android:layout_toRightOf="@+id/plant3"
+                android:layout_toEndOf="@+id/plant3"
                 android:layout_below="@+id/plant_name3"
                 android:textSize="12sp"
                 android:text="@string/zinnia"
                 android:padding="4dp"
-                android:textColor="@android:color/darker_gray" />
+                android:textColor="@android:color/secondary_text_light" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
@@ -181,15 +176,16 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="2dp">
+            android:padding="2dp"
+            android:background="@android:color/holo_orange_light">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:id="@+id/plant4"
-                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@drawable/iris_bluffy"
                 android:scaleType="centerCrop"/>
 
@@ -197,7 +193,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/plant_name4"
-                android:layout_toRightOf="@+id/plant4"
+                android:layout_toEndOf="@+id/plant4"
                 android:layout_alignParentTop="true"
                 android:textSize="16sp"
                 android:text="Iris Bluffy"
@@ -208,12 +204,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/explain4"
-                android:layout_toRightOf="@+id/plant4"
+                android:layout_toEndOf="@+id/plant4"
                 android:layout_below="@+id/plant_name4"
                 android:textSize="12sp"
                 android:text="@string/iris"
                 android:padding="4dp"
-                android:textColor="@android:color/darker_gray" />
+                android:textColor="@android:color/secondary_text_light" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
@@ -228,15 +224,16 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="2dp">
+            android:padding="2dp"
+            android:background="@android:color/holo_orange_light">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:id="@+id/plant5"
-                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@drawable/ironweed_yellow"
                 android:scaleType="centerCrop"/>
 
@@ -244,7 +241,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/plant_name5"
-                android:layout_toRightOf="@+id/plant5"
+                android:layout_toEndOf="@+id/plant5"
                 android:layout_alignParentTop="true"
                 android:textSize="16sp"
                 android:text="Ironweed Yellow"
@@ -255,15 +252,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/explain5"
-                android:layout_toRightOf="@+id/plant5"
+                android:layout_toEndOf="@+id/plant5"
                 android:layout_below="@+id/plant_name5"
                 android:textSize="12sp"
                 android:text="@string/ironweed"
                 android:padding="4dp"
-                android:textColor="@android:color/darker_gray" />
+                android:textColor="@android:color/secondary_text_light" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
-        </LinearLayout>
-    </ScrollView>
 </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
