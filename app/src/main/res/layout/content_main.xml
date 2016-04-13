@@ -42,7 +42,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginEnd="1dp"
-                android:background="@drawable/corona_snapdragon"
+                android:src="@drawable/corona_snapdragon"
                 android:scaleType="centerCrop"/>
 
             <TextView
@@ -90,7 +90,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginEnd="1dp"
-                android:background="@drawable/ice_plant"
+                android:src="@drawable/ice_plant"
                 android:scaleType="centerCrop"/>
 
             <TextView
@@ -138,7 +138,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginEnd="1dp"
-                android:background="@drawable/zinnia_jazz"
+                android:src="@drawable/zinnia_jazz"
                 android:scaleType="centerCrop"/>
 
             <TextView
@@ -186,7 +186,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginEnd="1dp"
-                android:background="@drawable/iris_bluffy"
+                android:src="@drawable/iris_bluffy"
                 android:scaleType="centerCrop"/>
 
             <TextView
@@ -234,7 +234,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginEnd="1dp"
-                android:background="@drawable/ironweed_yellow"
+                android:src="@drawable/ironweed_yellow"
                 android:scaleType="centerCrop"/>
 
             <TextView
