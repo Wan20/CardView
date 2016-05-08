@@ -4,7 +4,7 @@ This is project about how to make CardView, i make a basic Cardview widget with 
 ![alt tag](https://github.com/Wan20/MyApps/blob/CardView/CardView.png)
 ![alt tag](https://github.com/Wan20/MyApps/blob/CardView/CardView2.png)
 
-I learn this from:
+If you want to know more, you can learn like me about this from this web:
 ####http://www.twoh.co/2015/03/material-design-tutorial-membuat-cardview-pada-android/
 ####https://developer.android.com/training/material/lists-cards.html
 ####http://techlovejump.com/android-cardview-widget-example-add-to-list-using-recyclerview/
