@@ -1,5 +1,6 @@
 # CardView
 This is project about how to make CardView, i make a basic Cardview widget with string for some text in apps without connection and scrolling for layout. And this is the result when the App running: 
+
 ![alt tag](https://github.com/Wan20/MyApps/blob/CardView/CardView.png)
 ![alt tag](https://github.com/Wan20/MyApps/blob/CardView/CardView2.png)
 
